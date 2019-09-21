@@ -2,5 +2,8 @@
 <resources>
     <dimen name="padding">6dp</dimen>
     <dimen name="header_size">35sp</dimen>
-    <dimen name="subheading_size">24sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_header_size">26dp</dimen>
+
+
 </resources>
