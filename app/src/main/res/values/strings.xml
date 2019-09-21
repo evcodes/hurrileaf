@@ -6,4 +6,11 @@
     <string name="sponsorBtn">Sponsor</string>
     <string name="sampleGoodsCollected">We have collected $10 and over 100lbs of goods today.</string>
     <string name="SponsorHeader">Sponsor Information</string>
+    <string name="sponsor_dashboard">Sponsor Dashboard</string>
+    <string name="email_address">name@mail.com</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="sponsor_header">Sponsor Registration</string>
+    <string name="donation_type_cash">Cash</string>
+    <string name="goods">Goods</string>
 </resources>

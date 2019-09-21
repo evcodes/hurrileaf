@@ -6,6 +6,7 @@ import cc.captaincode.hurrileaf.activities.donations.ui.DonationTypeActivity
 import cc.captaincode.hurrileaf.activities.goodsDonation.ui.GoodsDonationActivity
 import cc.captaincode.hurrileaf.activities.paymentDonation.ui.PaymentDonationActivity
 import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorFormActivity
+import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorLoginRegistration
 
 class HomeCoordinator (context: Context){
 
@@ -21,8 +22,8 @@ class HomeCoordinator (context: Context){
     fun startDonationSelectionActivity(context: Context){
         context.startActivity(Intent(context, DonationTypeActivity::class.java))
     }
-    fun startSponsorInfoActivity(context: Context){
-        context.startActivity(Intent(context, SponsorFormActivity::class.java))
+    fun startSponsorInitActivity(context: Context){
+        context.startActivity(Intent(context, SponsorLoginRegistration::class.java))
     }
     fun paymentInformationActivity(context: Context){
         context.startActivity(Intent(context, PaymentDonationActivity::class.java))
