@@ -9,9 +9,19 @@ import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorFormActivity
 
 class HomeCoordinator (context: Context){
 
+    companion object {
+        fun init(context: Context) {
+            mainCoordinator =
+                HomeCoordinator(context)
+        }
+
+        var mainCoordinator: HomeCoordinator? = null
+    }
+
     fun startDonationSelectionActivity(context: Context){
         context.startActivity(Intent(context, DonationTypeActivity::class.java))
-    }fun startSponsorInfoActivity(context: Context){
+    }
+    fun startSponsorInfoActivity(context: Context){
         context.startActivity(Intent(context, SponsorFormActivity::class.java))
     }
     fun paymentInformationActivity(context: Context){
