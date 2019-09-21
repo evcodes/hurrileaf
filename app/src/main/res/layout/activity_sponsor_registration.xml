@@ -43,6 +43,7 @@
     <EditText
         android:id="@+id/editText3"
         android:layout_width="0dp"
+        android:inputType="text"
         android:layout_height="wrap_content"
         android:hint="@string/email_address"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -50,22 +51,17 @@
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/etBudgetAmt" />
 
-    <TextView
-        android:id="@+id/tvDonationMatchLabel"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/etSponsorPassword"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Donation Match"
-        android:textSize="@dimen/subheading_size"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/editText3" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/tvDonationMatchLabel"
-        app:layout_constraintEnd_toStartOf="@+id/guideline6"
-        app:layout_constraintTop_toTopOf="@+id/tvDonationMatchLabel" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
@@ -145,7 +141,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="1"
+        android:max="100"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvConstructionMaterialsLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -160,7 +156,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="1"
+        android:max="100"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvClothesLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -184,7 +180,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="1"
+        android:max="100"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvWaterLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -197,7 +193,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="1"
+        android:max="100"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvMedicineLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -210,7 +206,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="1"
+        android:max="100"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvFoodLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"

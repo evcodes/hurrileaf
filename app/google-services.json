@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1663015473",
+    "firebase_url": "https://hurrileaf-d6e01.firebaseio.com",
+    "project_id": "hurrileaf-d6e01",
+    "storage_bucket": "hurrileaf-d6e01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1663015473:android:150e39d13e29a6be2a9310",
+        "android_client_info": {
+          "package_name": "cc.captaincode.hurrileaf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1663015473-mcdf9vvk7sbuj5ao3o54jm4oqplk37sk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cc.captaincode.hurrileaf",
+            "certificate_hash": "39dd418893afd9a9fd8eb8ae2d8f02cb98298d68"
+          }
+        },
+        {
+          "client_id": "1663015473-f25sj2evkf0nv6cupra3ed1qvh941085.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsmISorDAp_0WOOntZWo_KDlrosj84Uwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1663015473-f25sj2evkf0nv6cupra3ed1qvh941085.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
