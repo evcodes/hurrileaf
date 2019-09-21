@@ -23,7 +23,7 @@ class HomeActivity : AppCompatActivity() {
         coordinator.startDonationSelectionActivity(this)
     }
     private fun startSponsor(){
-        coordinator.startSponsorInfoActivity(this)
+        coordinator.startSponsorInfoActivity(this);
     }
 
 
