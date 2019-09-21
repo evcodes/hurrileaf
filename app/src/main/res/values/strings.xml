@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HurriLeaf</string>
+    <string name="iconDescription">App Icon</string>
+    <string name="motto">Send some love</string>
+    <string name="donateBtn">Donate</string>
+    <string name="sponsorBtn">Sponsor</string>
+    <string name="sampleGoodsCollected">We have collected $10 and over 100lbs of goods today.</string>
 </resources>
