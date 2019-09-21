@@ -5,7 +5,6 @@ import android.content.Intent
 import cc.captaincode.hurrileaf.activities.donations.ui.DonationTypeActivity
 import cc.captaincode.hurrileaf.activities.goodsDonation.ui.GoodsDonationActivity
 import cc.captaincode.hurrileaf.activities.paymentDonation.ui.PaymentDonationActivity
-import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorFormActivity
 import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorLoginRegistration
 
 class HomeCoordinator (context: Context){

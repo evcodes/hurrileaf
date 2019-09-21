@@ -13,4 +13,5 @@
     <string name="sponsor_header">Sponsor Registration</string>
     <string name="donation_type_cash">Cash</string>
     <string name="goods">Goods</string>
+    <string name="save_preferences">Save Preferences</string>
 </resources>
