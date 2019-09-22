@@ -228,7 +228,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:text="@string/save_preferences"
-        android:id="@+id/btnSavePreferences"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/guideline5"

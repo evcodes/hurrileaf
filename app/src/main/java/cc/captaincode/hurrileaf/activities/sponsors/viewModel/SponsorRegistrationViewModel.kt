@@ -14,11 +14,12 @@ class SponsorRegistrationViewModel(private val sponsorRegistration: SponsorRegis
 
     }
     fun registerUser(sponsor: Sponsor) {
-        Log.d("hello", "we're here")
+
         FirebaseAuth.getInstance().createUserWithEmailAndPassword(
             sponsor.email, sponsor.password
         ).addOnCompleteListener {
             if (it.isSuccessful) {
+                Log.d("hello", "we're here")
                 saveSponsor(sponsor)
                 Toast.makeText(
                     sponsorRegistration, "Register success",
@@ -28,7 +29,7 @@ class SponsorRegistrationViewModel(private val sponsorRegistration: SponsorRegis
                 Toast.makeText(
                     sponsorRegistration, "Error:" +
                             it.exception?.message,
-                    Toast.LENGTH_SHORT
+                    Toast.LENGTH_LONG
                 ).show()
             }
         }.addOnFailureListener {

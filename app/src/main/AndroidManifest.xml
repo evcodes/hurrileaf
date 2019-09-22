@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cc.captaincode.hurrileaf">
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -37,14 +34,16 @@
 
         <activity
             android:name=".activities.goodsDonation.ui.DonationMapping"
-            android:label="@string/title_activity_donation_mapping"/>
+            android:label="@string/title_activity_donation_mapping" />
         <activity android:name=".activities.donations.ui.CashDonationActivity" />
         <activity android:name=".activities.sponsors.ui.SponsorDashboardActivity" />
         <activity android:name=".activities.sponsors.ui.SponsorRegistration" />
         <activity android:name=".activities.sponsors.ui.SponsorLoginRegistration" />
         <activity android:name=".activities.paymentDonation.ui.PaymentDonationActivity" />
         <activity android:name=".activities.donations.ui.DonationTypeActivity" />
-        <activity android:name=".activities.home.ui.HomeActivity">
+        <activity
+            android:name=".activities.home.ui.HomeActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

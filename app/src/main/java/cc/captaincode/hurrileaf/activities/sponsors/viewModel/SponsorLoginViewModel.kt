@@ -4,6 +4,7 @@ package cc.captaincode.hurrileaf.activities.sponsors.viewModel
 import android.content.Intent
 import android.widget.Toast
 import androidx.core.content.ContextCompat.startActivity
+import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorLoginRegistration
 import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorRegistration
 import cc.captaincode.hurrileaf.coordinators.SponsorCoordinator
 import com.google.firebase.FirebaseApp
@@ -12,7 +13,7 @@ import kotlinx.android.synthetic.main.activity_sponsor_login_registration.*
 
 
 private var mAuth: FirebaseAuth? = null
-class SponsorLoginViewModel(private val sponsorLoginRegistration: SponsorRegistration) {
+class SponsorLoginViewModel(private val sponsorLoginRegistration: SponsorLoginRegistration) {
 
     fun login(username: String, password: String) {
         mAuth = FirebaseAuth.getInstance()
@@ -24,7 +25,7 @@ class SponsorLoginViewModel(private val sponsorLoginRegistration: SponsorRegistr
             {
                 if(it.isSuccessful)
                 {
-                    SponsorCoordinator(sponsorLoginRegistration)
+                    SponsorCoordinator(sponsorLoginRegistration).loginSponsor()
                 }
                 else
                 {
