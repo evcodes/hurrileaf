@@ -33,4 +33,5 @@
     <string name="title_activity_donation_mapping">Map</string>
     <string name="donation_type">Donation Type</string>
     <string name="donor_terms_and_services">Donor Terms and Services</string>
+    <string name="max_points">10</string>
 </resources>

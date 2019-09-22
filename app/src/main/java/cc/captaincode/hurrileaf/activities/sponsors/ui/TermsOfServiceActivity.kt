@@ -21,7 +21,6 @@ class TermsOfServiceActivity() :
     }
     fun returnToDash (){
         finish()
-        finish()
     }
 
 }
