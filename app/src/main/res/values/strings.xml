@@ -40,4 +40,12 @@
     <string name="water">Water</string>
     <string name="medicine">Medicine</string>
     <string name="card_number">Card Number</string>
+    <string name="materials">Materials</string>
+    <string name="clothes">Clothes</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="donation_amount">Donation Amount</string>
+    <string name="cvv">CVV</string>
+    <string name="pay">Pay</string>
+    <string name="appreciate_tet">Thank you for your donation! Your money will be split amongst 10 different organizations who have launched hurricane relief campaigns.</string>
 </resources>

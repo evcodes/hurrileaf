@@ -7,5 +7,6 @@
     <dimen name="subheading_size">26dp</dimen>
     <dimen name="donationType">32sp</dimen>
     <dimen name="text_size">26sp</dimen>
+    <dimen name="box_icon">120dp</dimen>
 
 </resources>
