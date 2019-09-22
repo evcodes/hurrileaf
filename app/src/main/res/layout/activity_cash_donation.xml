@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,84 +7,5 @@
     tools:context=".activities.donations.ui.CashDonationActivity">
 
 
-    <Button
-        android:id="@+id/waterButton"
-        android:layout_width="106dp"
-        android:layout_height="122dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginBottom="260dp"
-        android:background="@drawable/waterbottle"
-        android:text="water"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.379"
-         />
-
-    <Button
-        android:id="@+id/medicineButton"
-        android:layout_width="133dp"
-        android:layout_height="94dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:layout_marginTop="64dp"
-        android:background="@drawable/redcross"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.503" />
-
-    <Button
-        android:id="@+id/constructionMaterialsButton"
-        android:layout_width="129dp"
-        android:layout_height="92dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
-        android:background="@drawable/construction"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.374"
-
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.58" />
-
-    <Button
-        android:id="@+id/foodButton"
-        android:layout_width="123dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:background="@drawable/burger"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="173dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="92dp"
-        android:layout_marginRight="92dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.367"
-        tools:layout_editor_absoluteY="213dp" />
-
-    <Button
-        android:id="@+id/clothesButton"
-        android:layout_width="130dp"
-        android:layout_height="127dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:layout_marginBottom="264dp"
-        android:background="@drawable/shirt"
-        android:text="Clothes"
-        android:textColor="@android:color/background_light"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintVertical_bias="0.734" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
 

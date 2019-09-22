@@ -9,13 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_circle"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.donations.ui.WaterDonationActivity"></activity>
-        <activity android:name=".activities.donations.ui.ClothesDonationActivity" />
-        <activity android:name=".DonationSponsorTerms" />
-        <activity
-            android:name=".SponsorTerms"
-            android:label="@string/title_activity_sponsor_terms"
-            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".activities.donations.ui.CashDonationActivity" />
         <activity android:name=".activities.sponsors.ui.SponsorDashboardActivity" />
         <activity android:name=".activities.sponsors.ui.SponsorRegistration" />
