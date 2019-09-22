@@ -7,10 +7,12 @@ import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorLoginRegistration
 import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorRegistration
 import cc.captaincode.hurrileaf.data.Sponsor
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 
 class SponsorRegistrationViewModel(private val sponsorRegistration: SponsorRegistration) : ViewModel() {
 
     fun saveSponsor(sponsor: Sponsor){
+        FirebaseFirestore.getInstance().collection("sponsors").add(sponsor)
 
     }
     fun registerUser(sponsor: Sponsor) {
@@ -23,7 +25,7 @@ class SponsorRegistrationViewModel(private val sponsorRegistration: SponsorRegis
                 saveSponsor(sponsor)
                 Toast.makeText(
                     sponsorRegistration, "Register success",
-                    Toast.LENGTH_SHORT
+                    Toast.LENGTH_LONG
                 ).show()
             } else {
                 Toast.makeText(

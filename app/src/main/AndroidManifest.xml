@@ -41,6 +41,7 @@
         <activity android:name=".activities.sponsors.ui.SponsorLoginRegistration" />
         <activity android:name=".activities.paymentDonation.ui.PaymentDonationActivity" />
         <activity android:name=".activities.donations.ui.DonationTypeActivity" />
+        <activity android:name=".activities.sponsors.ui.TermsOfServiceActivity" />
         <activity
             android:name=".activities.home.ui.HomeActivity">
 

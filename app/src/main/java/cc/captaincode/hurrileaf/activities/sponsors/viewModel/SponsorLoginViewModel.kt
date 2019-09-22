@@ -21,6 +21,7 @@ class SponsorLoginViewModel(private val sponsorLoginRegistration: SponsorLoginRe
                 if(it.isSuccessful)
                 {
                     SponsorCoordinator(sponsorLoginRegistration).loginSponsor()
+
                 }
                 else
                 {

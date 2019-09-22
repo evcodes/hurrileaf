@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">HurriLeaf</string>
     <string name="iconDescription">App Icon</string>
-    <string name="motto">Send some love</string>
+    <string name="motto">The power of giving\n right at your fingertips.</string>
     <string name="donateBtn">Donate</string>
     <string name="sponsorBtn">Sponsor</string>
     <string name="sampleGoodsCollected">We have collected $10 and over 100lbs of goods today.</string>
@@ -11,8 +11,8 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="sponsor_header">Sponsor Registration</string>
-    <string name="donation_type_cash">Cash</string>
-    <string name="goods">Goods</string>
+    <string name="donation_type_cash">Cash Donation</string>
+    <string name="goods">Goods Dropoff</string>
     <string name="save_preferences">Save Preferences</string>
     <string name="lipsum">Ut tempus turpis at fringilla aliquet.\n Phasellus pretium, purus eget pulvinar consequat, libero ante viverra justo, id blandit lacus sapien eu leo. Suspendisse varius mauris nec vestibulum sodales.\n
         Praesent nec erat vulputate, vulputate nisl vitae, dapibus elit. Sed accumsan, felis eget ullamcorper tristique, sapien nulla condimentum massa,\n
@@ -31,4 +31,6 @@
     <string name="password">Password</string>
     <string name="title_activity_donation_location">Map</string>
     <string name="title_activity_donation_mapping">Map</string>
+    <string name="donation_type">Donation Type</string>
+    <string name="donor_terms_and_services">Donor Terms and Services</string>
 </resources>
