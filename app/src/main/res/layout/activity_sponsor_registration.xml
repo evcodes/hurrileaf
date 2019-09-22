@@ -189,7 +189,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Budget: "
-        android:textSize="@dimen/subheading_size"
+        android:textSize="31sp"
         android:id="@+id/tvBudget"
         app:layout_constraintBottom_toTopOf="@+id/btnSavePreferences"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -197,18 +197,6 @@
         app:layout_constraintTop_toBottomOf="@+id/sbMaterials" />
 
 
-    <TextView
-        android:id="@+id/tvPoints"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Points: "
-        android:textSize="@dimen/subheading_size"
-        app:layout_constraintBottom_toTopOf="@+id/btnSavePreferences"
-        app:layout_constraintEnd_toStartOf="@+id/guideline9"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toBottomOf="@+id/tvConstructionMaterialsLabel"
-        app:layout_constraintVertical_bias="0.513" />
 
     <SeekBar
         android:id="@+id/sbMedicine"

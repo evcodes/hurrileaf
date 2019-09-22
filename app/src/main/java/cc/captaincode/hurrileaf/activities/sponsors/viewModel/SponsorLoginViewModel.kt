@@ -8,6 +8,7 @@ import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 
 private var mAuth: FirebaseAuth? = null
+
 class SponsorLoginViewModel(private val sponsorLoginRegistration: SponsorLoginRegistration) {
 
     fun login(username: String, password: String) {
@@ -18,20 +19,17 @@ class SponsorLoginViewModel(private val sponsorLoginRegistration: SponsorLoginRe
         FirebaseAuth.getInstance().signInWithEmailAndPassword(username, password)
             .addOnCompleteListener()
             {
-                if(it.isSuccessful)
-                {
+                if (it.isSuccessful) {
+                    sponsorLoginRegistration.loginSuccess()
                     SponsorCoordinator(sponsorLoginRegistration).loginSponsor()
-
-                }
-                else
-                {
+                } else {
                     Toast.makeText(
                         sponsorLoginRegistration, "Error: " + it.exception?.message,
                         Toast.LENGTH_SHORT
                     ).show()
 
                 }
-            }.addOnFailureListener{
+            }.addOnFailureListener {
                 Toast.makeText(
                     sponsorLoginRegistration, "Error: ${it.message}", Toast.LENGTH_LONG
                 ).show()

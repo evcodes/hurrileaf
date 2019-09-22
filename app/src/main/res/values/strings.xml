@@ -4,7 +4,7 @@
     <string name="motto">The power of giving\n right at your fingertips.</string>
     <string name="donateBtn">Donate</string>
     <string name="sponsorBtn">Sponsor</string>
-    <string name="sampleGoodsCollected">We have collected $10 and over 100lbs of goods today.</string>
+    <string name="sampleGoodsCollected">We have collected $10000 and over 150lbs of goods today.</string>
     <string name="SponsorHeader">Sponsor Information</string>
     <string name="sponsor_dashboard">Sponsor Dashboard</string>
     <string name="email_address">name@mail.com</string>
@@ -30,8 +30,14 @@
     <string name="accept">Accept and Continue</string>
     <string name="password">Password</string>
     <string name="title_activity_donation_location">Map</string>
-    <string name="title_activity_donation_mapping">Map</string>
+    <string name="title_activity_donation_mapping">Hurrileaf Drop Zones</string>
     <string name="donation_type">Donation Type</string>
     <string name="donor_terms_and_services">Donor Terms and Services</string>
     <string name="max_points">10</string>
+    <string name="category">Category</string>
+    <string name="disaster_relief_resources">Disaster Relief Resources</string>
+    <string name="food">Food</string>
+    <string name="water">Water</string>
+    <string name="medicine">Medicine</string>
+    <string name="card_number">Card Number</string>
 </resources>

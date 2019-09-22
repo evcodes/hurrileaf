@@ -79,7 +79,6 @@ class SponsorRegistration : AppCompatActivity() {
         if (p0.progress <= budget && cur_points <= 10){
             budget = 10 - cur_points
             tvBudget.text = "Budget: ${budget}"
-            tvPoints.text = "Curr Points $cur_points"
             updateButton()
         }else{
             p0.progress = 0

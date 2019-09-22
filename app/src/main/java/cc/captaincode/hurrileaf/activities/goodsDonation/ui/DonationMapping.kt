@@ -18,6 +18,8 @@ class DonationMapping : AppCompatActivity(), OnMapReadyCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_donation_mapping)
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+
+
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
@@ -36,8 +38,22 @@ class DonationMapping : AppCompatActivity(), OnMapReadyCallback {
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
-        val sydney = com.google.android.gms.maps.model.LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        val fiu = com.google.android.gms.maps.model.LatLng(25.7574, -80.373)
+        mMap.addMarker(MarkerOptions().position(fiu).title("Drop station in FIU"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(fiu))
+
+        val brickell = com.google.android.gms.maps.model.LatLng(25.7602, -80.1959)
+        mMap.addMarker(MarkerOptions().position(brickell).title("Drop station in Brickell"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(brickell))
+
+        val fll = com.google.android.gms.maps.model.LatLng(26.1224, -80.1373)
+        mMap.addMarker(MarkerOptions().position(fll).title("Drop station in Fort Lauderdal"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(fll))
+
+        val lilHavana = com.google.android.gms.maps.model.LatLng(25.7776, -80.2377)
+        mMap.addMarker(MarkerOptions().position(lilHavana).title("Drop station in Little Havana"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(lilHavana))
+        mMap.setMinZoomPreference(9.0f)
+        mMap.setMaxZoomPreference(14.0f)
     }
 }

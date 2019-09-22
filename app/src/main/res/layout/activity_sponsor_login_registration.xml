@@ -47,6 +47,15 @@
         android:background="@color/colorPrimary"
         android:textColor="#FFF"/>
 
+    <ProgressBar
+        android:id="@+id/pbLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/etLoginPassword"
+        app:layout_constraintStart_toStartOf="@+id/etLoginPassword"
+        app:layout_constraintTop_toTopOf="@+id/btnLogin"
+        android:visibility="invisible"/>
+
     <Button
         android:id="@+id/btnRegister"
         android:background="@color/colorPrimaryDark"

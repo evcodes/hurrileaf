@@ -21,7 +21,7 @@ class CashDonationActivity : AppCompatActivity() {
         imgBtnFood.setOnClickListener{startPaymentDetail("food")}
         imgBtnMaterials.setOnClickListener{startPaymentDetail("materials")}
         imgBtnMedicine.setOnClickListener{startPaymentDetail("medicine")}
-        imgBtnMaterials.setOnClickListener{startPaymentDetail("clothes")}
+        imgBtnClothes.setOnClickListener{startPaymentDetail("clothes")}
 
     }
 

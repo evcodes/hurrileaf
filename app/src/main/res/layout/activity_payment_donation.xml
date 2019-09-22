@@ -11,7 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="Category"
+        android:text="@string/category"
         android:textAlignment="center"
         android:textSize="@dimen/header_size"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,95 +21,117 @@
 
     <EditText
         android:id="@+id/etCardHolder"
-        android:layout_width="200dp"
-        android:layout_height="42dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_margin="6dp"
-        android:layout_marginTop="108dp"
-        android:hint="Card Holder"
+        android:layout_marginStart="4dp"
+        android:hint="First Name"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/btnConfirmPayment"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
         app:layout_constraintStart_toStartOf="@+id/guideline18"
-        app:layout_constraintTop_toBottomOf="@+id/tvCategoryLabel"
-        app:layout_constraintVertical_bias="0.24" />
+        app:layout_constraintTop_toTopOf="@+id/guideline24" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/heart_box"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline17"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
 
     <EditText
-        android:layout_width="150dp"
-
-        android:layout_height="42dp"
-
-        android:id="@+id/etPaymentAmount"
+        android:id="@+id/etCardHolderLastName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_margin="6dp"
-        android:hint="Donation Amount"
+        android:hint="Last Name"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/etCardHolder"
+        app:layout_constraintBottom_toBottomOf="@+id/etCardHolder"
         app:layout_constraintEnd_toStartOf="@+id/guideline17"
-        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/etCardHolder" />
+
+    <EditText
+        android:id="@+id/etPaymentAmount"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:layout_margin="6dp"
+        android:layout_marginTop="76dp"
+        android:hint="Donation Amount"
+
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/guideline17"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline18"
-        app:layout_constraintTop_toBottomOf="@+id/tvCategoryLabel"
-        app:layout_constraintVertical_bias="0.354" />
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
 
     <EditText
         android:id="@+id/etCardNumber"
-        android:layout_width="200dp"
+        android:layout_width="0dp"
         android:layout_height="42dp"
 
         android:layout_margin="6dp"
-        android:hint="Card Number"
 
+        android:hint="@string/card_number"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/guideline20"
         app:layout_constraintEnd_toStartOf="@+id/guideline17"
-        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="@+id/guideline18"
         app:layout_constraintTop_toBottomOf="@+id/etCardHolder"
-        app:layout_constraintVertical_bias="0.181" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/etExpirationDate"
-        android:layout_width="150dp"
+        android:layout_width="125dp"
 
-        android:layout_height="42dp"
-        android:layout_margin="6dp"
-        android:hint="Expiration Date"
+        android:layout_height="wrap_content"
+        android:hint="04/22"
+
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/guideline20"
-        app:layout_constraintEnd_toStartOf="@+id/guideline17"
-        app:layout_constraintHorizontal_bias="0.653"
-        app:layout_constraintStart_toEndOf="@+id/etCVVNumber"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
         app:layout_constraintTop_toBottomOf="@+id/etCardNumber"
-        app:layout_constraintVertical_bias="0.326" />
+        app:layout_constraintVertical_bias="0.032" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:hint="Zip Code"
+        app:layout_constraintBottom_toBottomOf="@+id/etExpirationDate"
+        app:layout_constraintEnd_toStartOf="@+id/guideline17"
+        app:layout_constraintStart_toEndOf="@+id/etExpirationDate"
+        app:layout_constraintTop_toBottomOf="@+id/etCardNumber" />
 
     <EditText
         android:id="@+id/etCVVNumber"
-        android:layout_width="80dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
 
-        android:layout_height="42dp"
 
-
-        android:layout_margin="6dp"
         android:hint="CVV"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/guideline20"
-        app:layout_constraintEnd_toStartOf="@+id/guideline17"
-        app:layout_constraintHorizontal_bias="0.08"
-        app:layout_constraintStart_toStartOf="@+id/guideline18"
-        app:layout_constraintTop_toBottomOf="@+id/etCardNumber"
-        app:layout_constraintVertical_bias="0.318" />
+        app:layout_constraintBottom_toBottomOf="@+id/etExpirationDate"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etCardNumber"
+        app:layout_constraintTop_toTopOf="@+id/etExpirationDate"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnConfirmPayment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="6dp"
+        android:background="@color/colorPrimary"
         android:text="Pay"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCategoryLabel"
-        app:layout_constraintVertical_bias="0.756" />
+        app:layout_constraintTop_toTopOf="@+id/guideline20" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline17"
@@ -142,4 +164,44 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="580dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.49878347" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="150dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="523dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="375dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Thank you for your donation! Your money will be split amongst 10 different organizations who have launched hurricane relief campaigns."
+        app:layout_constraintBottom_toTopOf="@+id/guideline24"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline18"
+        app:layout_constraintTop_toBottomOf="@+id/etPaymentAmount"
+        app:layout_constraintVertical_bias="0.84" />
 </androidx.constraintlayout.widget.ConstraintLayout>
