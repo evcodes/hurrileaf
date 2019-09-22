@@ -9,7 +9,7 @@ android {
     buildToolsVersion "29.0.1"
     defaultConfig {
         applicationId "cc.captaincode.hurrileaf"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
         multiDexEnabled true
