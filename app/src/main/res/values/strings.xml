@@ -29,4 +29,5 @@
         Donec volutpat, turpis vel molestie sagittis, elit orci scelerisque eros, vitae scelerisque tellus turpis vel orci. Suspendisse tempor, diam sed tempor faucibus, dui ipsum auctor odio, sed interdum magna arcu eget ante. Proin faucibus leo in mi dictum aliquam. Suspendisse interdum malesuada pharetra. Praesent vitae dolor pulvinar, sodales velit a, molestie mauris. Morbi molestie quam eget elit tristique, eu viverra mauris varius.</string>
     <string name="accept">Accept and Continue</string>
     <string name="password">Password</string>
+    <string name="title_activity_donation_location">Map</string>
 </resources>

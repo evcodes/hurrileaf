@@ -18,10 +18,15 @@ class DonationTypeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_donation_type)
 
         tvCashLabel.setOnClickListener { startCashDonation() }
+        tvGoodsLabel.setOnClickListener { startGoodsDonation() }
     }
 
     private fun startCashDonation(){
-        donationCoordinator.startCashDonation(this)
+        donationCoordinator.startCashDonation()
+    }
+
+    private fun startGoodsDonation(){
+        donationCoordinator.startGoodsDonation()
     }
 
 }

@@ -3,8 +3,9 @@ package cc.captaincode.hurrileaf.coordinators
 import android.content.Context
 import android.content.Intent
 import cc.captaincode.hurrileaf.activities.donations.ui.CashDonationActivity
+import cc.captaincode.hurrileaf.activities.goodsDonation.ui.DonationLocation
 
-class DonationCoordinator (context: Context){
+class DonationCoordinator (private val context: Context){
 
     companion object {
         fun init(context: Context) {
@@ -15,8 +16,12 @@ class DonationCoordinator (context: Context){
         var donationCoordinator: DonationCoordinator? = null
     }
 
-    fun startCashDonation(context: Context){
+    fun startCashDonation(){
         context.startActivity(Intent(context, CashDonationActivity::class.java))
+    }
+
+    fun startGoodsDonation(){
+        context.startActivity(Intent(context, DonationLocation::class.java))
     }
 
 }
