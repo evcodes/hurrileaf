@@ -16,6 +16,6 @@ class SponsorLoginRegistration : AppCompatActivity() {
     }
 
     private fun registerSponsor(){
-        sponsorCoordinator.startRegistrationActivity(this)
+        sponsorCoordinator.startRegistrationActivity()
     }
 }

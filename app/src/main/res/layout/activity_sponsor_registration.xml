@@ -57,7 +57,6 @@
         android:layout_height="wrap_content"
         android:hint="Enter password"
         android:inputType="textPassword"
-
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
@@ -137,11 +136,11 @@
 
     <SeekBar
         android:id="@+id/sbMaterials"
-        android:layout_width="166dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="100"
+        android:max="10"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvConstructionMaterialsLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -156,7 +155,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="100"
+        android:max="10"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvClothesLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -180,7 +179,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="100"
+        android:max="10"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvWaterLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -189,11 +188,11 @@
 
     <SeekBar
         android:id="@+id/sbMedicine"
-        android:layout_width="166dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="100"
+        android:max="10"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvMedicineLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -202,11 +201,11 @@
 
     <SeekBar
         android:id="@+id/sbFood"
-        android:layout_width="166dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:max="100"
+        android:max="10"
         android:min="0"
         app:layout_constraintBottom_toBottomOf="@+id/tvFoodLabel"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -218,7 +217,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="173dp" />
+        app:layout_constraintGuide_percent="0.42" />
 
     <Button
         android:id="@+id/btnSavePreferences"
@@ -229,6 +228,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:text="@string/save_preferences"
+        android:id="@+id/btnSavePreferences"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/guideline5"

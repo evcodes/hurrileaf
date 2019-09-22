@@ -5,7 +5,7 @@ import android.content.Intent
 import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorDashboardActivity
 import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorRegistration
 
-class SponsorCoordinator(context: Context){
+class SponsorCoordinator(private val context: Context){
 
     companion object {
         fun init(context: Context) {
@@ -16,10 +16,10 @@ class SponsorCoordinator(context: Context){
         var sponsorCoordinator: SponsorCoordinator? = null
     }
 
-    fun startRegistrationActivity(context:Context){
+    fun startRegistrationActivity(){
         context.startActivity(Intent(context, SponsorRegistration::class.java))
     }
-    fun loginSponsor(context:Context){
+    fun loginSponsor(){
         context.startActivity(Intent(context, SponsorDashboardActivity::class.java))
     }
 }

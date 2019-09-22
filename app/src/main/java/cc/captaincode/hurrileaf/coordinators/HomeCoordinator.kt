@@ -3,7 +3,7 @@ package cc.captaincode.hurrileaf.coordinators
 import android.content.Context
 import android.content.Intent
 import cc.captaincode.hurrileaf.activities.donations.ui.DonationTypeActivity
-import cc.captaincode.hurrileaf.activities.goodsDonation.ui.GoodsDonationActivity
+import cc.captaincode.hurrileaf.activities.goodsDonation.ui.DonationLocation
 import cc.captaincode.hurrileaf.activities.paymentDonation.ui.PaymentDonationActivity
 import cc.captaincode.hurrileaf.activities.sponsors.ui.SponsorLoginRegistration
 
@@ -28,6 +28,6 @@ class HomeCoordinator (context: Context){
         context.startActivity(Intent(context, PaymentDonationActivity::class.java))
     }
     fun goodsDonationActivty(context: Context){
-        context.startActivity(Intent(context, GoodsDonationActivity::class.java))
+        context.startActivity(Intent(context, DonationLocation::class.java))
     }
 }
