@@ -33,6 +33,7 @@
         app:layout_constraintEnd_toEndOf="@+id/editText"
         app:layout_constraintStart_toStartOf="@+id/editText"
         android:inputType="textPassword"
+        android:hint="@string/password"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
@@ -42,10 +43,15 @@
         app:layout_constraintEnd_toEndOf="@+id/editText2"
         app:layout_constraintStart_toStartOf="@+id/editText2"
         app:layout_constraintTop_toBottomOf="@+id/editText2"
-        android:text="@string/login"/>
+        android:text="@string/login"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"/>
 
     <Button
         android:id="@+id/btnRegister"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/register"

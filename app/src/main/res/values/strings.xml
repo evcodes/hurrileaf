@@ -14,4 +14,19 @@
     <string name="donation_type_cash">Cash</string>
     <string name="goods">Goods</string>
     <string name="save_preferences">Save Preferences</string>
+    <string name="lipsum">Ut tempus turpis at fringilla aliquet.\n Phasellus pretium, purus eget pulvinar consequat, libero ante viverra justo, id blandit lacus sapien eu leo. Suspendisse varius mauris nec vestibulum sodales.\n
+        Praesent nec erat vulputate, vulputate nisl vitae, dapibus elit. Sed accumsan, felis eget ullamcorper tristique, sapien nulla condimentum massa,\n
+        sed posuere dolor neque sed augue. Quisque sit amet nunc tristique, egestas odio at, auctor neque. Phasellus augue leo, fermentum ac auctor eu, aliquam sed lectus.\n
+\n
+        Duis gravida augue blandit, imperdiet quam eu, consectetur lacus. Aliquam facilisis sapien maximus, venenatis enim sed, scelerisque nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n
+        Aenean sodales felis eu nulla accumsan vestibulum. Nulla nec ex eget nisi consectetur dapibus eu in risus. Donec fringilla risus sit amet iaculis consectetur. Proin ac elit porttitor, elementum neque vel, venenatis elit.\n
+        Duis venenatis lacus eget elit auctor fermentum. Nam vestibulum vehicula ipsum ultrices feugiat. Sed dolor felis, vehicula ut luctus at, tristique nec nibh. Proin pretium nec ex sed sagittis. \n
+        Nam pharetra leo vel arcu euismod posuere. Etiam aliquam semper feugiat. Vivamus quis tellus vel lorem porttitor pellentesque. Phasellus sed elementum ex, nec vestibulum elit. Nunc venenatis tortor quis ipsum aliquam,\n
+        vitae ultricies eros posuere. Sed facilisis ut nulla eu euismod. Donec tristique feugiat maximus. Sed gravida aliquam tellus, ac iaculis massa sollicitudin non. Sed ac massa arcu. Fusce aliquet,\n\n
+
+        turpis quis tincidunt faucibus, libero mi vestibulum justo, vel vulputate justo metus in dui. Suspendisse id suscipit dolor. Etiam justo lorem, laoreet suscipit erat tristique, fermentum egestas magna.\n\n
+        Etiam pellentesque augue at auctor sagittis. Proin eu gravida metus, ut fermentum nibh. Nullam feugiat nibh elementum ligula lobortis vestibulum a vel libero.\n In eu metus nulla. Donec gravida consectetur enim. \n\n
+        Donec volutpat, turpis vel molestie sagittis, elit orci scelerisque eros, vitae scelerisque tellus turpis vel orci. Suspendisse tempor, diam sed tempor faucibus, dui ipsum auctor odio, sed interdum magna arcu eget ante. Proin faucibus leo in mi dictum aliquam. Suspendisse interdum malesuada pharetra. Praesent vitae dolor pulvinar, sodales velit a, molestie mauris. Morbi molestie quam eget elit tristique, eu viverra mauris varius.</string>
+    <string name="accept">Accept and Continue</string>
+    <string name="password">Password</string>
 </resources>
