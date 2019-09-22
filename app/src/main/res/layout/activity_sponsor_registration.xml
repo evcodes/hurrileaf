@@ -7,7 +7,7 @@
     tools:context=".activities.sponsors.ui.SponsorRegistration">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvSponsorHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -27,7 +27,7 @@
         android:inputType="text"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/tvSponsorHeader" />
 
     <EditText
         android:id="@+id/etBudgetAmt"
@@ -41,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etSponsorName" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/etSponsorEmail"
         android:layout_width="0dp"
         android:inputType="text"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/etSponsorEmail" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:text="Donation Item Breakdown"
         android:textSize="@dimen/subheading_size"
-        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/tvSponsorHeader"
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <TextView
@@ -220,6 +220,7 @@
         app:layout_constraintGuide_percent="0.42" />
 
     <Button
+        android:id="@+id/btnSavePreferences"
         android:padding="15dp"
         android:background="@color/colorPrimary"
         android:textColor="#FFF"
@@ -227,7 +228,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:text="@string/save_preferences"
-        android:id="@+id/btnSavePreferences"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
