@@ -11,9 +11,9 @@
          location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -36,8 +36,8 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".activities.goodsDonation.ui.DonationLocation"
-            android:label="@string/title_activity_donation_location"></activity>
+            android:name=".activities.goodsDonation.ui.DonationMapping"
+            android:label="@string/title_activity_donation_mapping"/>
         <activity android:name=".activities.donations.ui.CashDonationActivity" />
         <activity android:name=".activities.sponsors.ui.SponsorDashboardActivity" />
         <activity android:name=".activities.sponsors.ui.SponsorRegistration" />
@@ -51,7 +51,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

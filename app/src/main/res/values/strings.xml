@@ -30,4 +30,5 @@
     <string name="accept">Accept and Continue</string>
     <string name="password">Password</string>
     <string name="title_activity_donation_location">Map</string>
+    <string name="title_activity_donation_mapping">Map</string>
 </resources>
